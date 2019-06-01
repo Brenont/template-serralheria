@@ -1,0 +1,225 @@
+/* Style da home */
+
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  
+  
+  
+    /* RESPONSIVE NAV STYLES */
+  
+  
+  .nav-menu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style: none;
+  }
+  
+  .nav-menu li {
+    width: 100%;
+    display: block;
+  }
+  
+  
+  
+  .nav-menu.opened {
+    max-height: 9999px;
+  }
+  
+  .disable-pointer-events {
+    pointer-events: none !important;
+  }
+  
+  .nav-toggle {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .js .nav-menu {
+      position: relative;
+    }
+    .js .nav-menu.closed {
+      max-height: none;
+    }
+    .nav-toggle {
+      display: none;
+    }
+  }
+  
+  
+ 
+    /* DEMO STYLES */
+  
+  
+  body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    color: #fdfbfa;
+    background: #fff;
+    font: normal 100%/1.4 sans-serif;
+    margin: 0;
+    
+  }
+  
+  section {
+    border-bottom: 1px solid #999;
+    text-align: center;
+    padding: 100px 0 0;
+    width: 100%;
+  }
+
+  
+  h1 {
+    margin-bottom: .5em;
+  }
+  
+  p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #home-1{
+      background: url("../style/img/serralheria-punhos-de-aco.jpg"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  
+ 
+    /* FIXED HEADER */
+ 
+  
+  header {
+    background: #f4421a;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .logo {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 55px;
+    padding: 0 20px;
+    color: #fff;
+    float: left;
+    
+  }
+
+  .logo img{
+      width: 50px;
+      height: 55px;
+      margin: 3% 0; 
+  }
+  
+  
+  
+  
+    /* NAVIGATION STYLES */
+
+  
+  .fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0; 
+  }
+  
+  .nav-menu,
+  .nav-menu * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .nav-menu,
+  .nav-menu ul {
+    list-style: none;
+    width: 100%;
+    float: left;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .nav-menu {
+      float: right;
+      width: auto;
+    }
+  }
+  
+  .nav-menu li {
+    float: left;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .nav-menu li {
+      width: auto;
+    }
+  }
+  
+  .nav-menu a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border-top: 1px solid white;
+    text-decoration: none;
+    background: #f4421a;
+    padding: 0.7em 1em;
+    color: #fff;
+    width: 100%;
+    float: left;
+  }
+  
+  .nav-menu a:active,
+  .nav-menu .active a {
+    background: #b73214;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .nav-menu a {
+      padding: 1.02em 2em;
+      text-align: center;
+      border-top: 0;
+      float: left;
+      margin: 0;
+    }
+  }
+  
+  .nav-menu ul ul a {
+    background: #ca3716;
+    padding-left: 2em;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .nav-menu ul ul a {
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  

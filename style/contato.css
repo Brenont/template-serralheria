@@ -1,0 +1,75 @@
+/* Style da contato */
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.section-intro{
+    background-color: #00171b;
+    padding: 45px;
+    font-size: 37px;
+    color: #fff;
+}
+.container-page {
+    background-image: url("./img/serralheria-punhos-de-aco.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    background-color:black;
+}
+article{
+    padding: 50px 50px;
+    color:#fff;
+}
+article h2{
+    margin: 15px;
+}
+article p{
+    font-size: 19px;
+}
+article .horario{
+    margin: 10px;
+}
+i{
+    margin: 5px;
+}
+form{
+    color: #fff;
+}
+.enviar-button{
+    padding: 15px 17px;
+    background-color: #0d5c6b;
+    color:#fff;
+    margin: 10px;
+}
+
+.input-container{
+    padding: 13px 40px;
+}
+.input-container:focus, .enviar-button:focus {
+    outline: none;
+}
+.esp {
+    padding: 10px 10px;
+}
+.border-radius{
+    border-radius: 15px;
+    border: none;
+}
+h1, h2, h3{
+    font-family: 'Exo', sans-serif;
+}
+textarea::-webkit-input-placeholder {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+@media (max-width:600px){
+    article{
+        /* text-align: center; */
+    }
+    .section-intro h1{
+        font-size: 28px;
+    }
+}

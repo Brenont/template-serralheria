@@ -1,0 +1,63 @@
+/* 
+Aqui ira ficar o style de coisas que se repetem em mais de uma pagina;
+Que no caso é o header e o footer;
+Todas as paginas irão chamar esse arquivo;
+*/
+
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #00171b;
+    color: #fff;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.number-email{
+    font-size: 18px;
+    
+}
+.titulo-logo{
+    font-size: 70px;
+    
+}
+.rede-social{
+    font-size: 55px;
+    margin: 20px;
+
+}
+a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin:5px;
+    /* border-radius: 100%; */
+    /* border: solid 2px #fff; */
+
+}
+@media (max-width:600px){
+    footer{
+        flex-direction: column;
+    }
+    .titulo-logo{
+        font-size: 35px;
+    }
+    .rede-social{
+        font-size: 23px;
+    }
+    a{
+        font-size: 17px;
+    }
+    .number-email{
+        font-size: 15px;
+    }
