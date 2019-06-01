@@ -9,8 +9,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
-    background-color: #00171b;
+    padding: 30px; 
+    background-color: #f4421a;
     color: #fff;
 }
 .flex-center{
@@ -35,14 +35,14 @@ footer{
     margin: 20px;
 
 }
-a{
+.icon{
     font-size: 25px;
     color: #fff;
     text-decoration: none;
     padding: 5px 5px;
     margin:5px;
-    /* border-radius: 100%; */
-    /* border: solid 2px #fff; */
+    border-radius: 100%;
+    border: solid 2px #fff;
 
 }
 @media (max-width:600px){
